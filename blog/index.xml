@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Roman Garcia</title>
+    <link>http://romanmgarcia.com/blog/</link>
+    <description>Recent content in Blog on Roman Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 May 2017 16:26:31 -0700</lastBuildDate>
+    
+	<atom:link href="http://romanmgarcia.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring the &#39;Web Shield&#39; of Avast Mac Security 2016</title>
+      <link>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</link>
+      <pubDate>Fri, 19 May 2017 16:26:31 -0700</pubDate>
+      
+      <guid>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</guid>
+      <description>This year at work has seen several trial and error attempts at third-party software configuration. Our school makes use of Avast Mac Security 2016. However, from Mavericks to El Capitan, we have also time and again run into roadblocks with Avast, one of which has been pushing updates and navigating the web.
+For reasons unknown to me, if the Web Shield is left to its default configuration, Avast will conflict with both Munki and Firefox.</description>
+    </item>
+    
+  </channel>
+</rss>

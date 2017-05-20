@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roman Garcia</title>
+    <link>http://romanmgarcia.com/</link>
+    <description>Recent content on Roman Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 May 2017 16:26:31 -0700</lastBuildDate>
+    
+	<atom:link href="http://romanmgarcia.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring the &#39;Web Shield&#39; of Avast Mac Security 2016</title>
+      <link>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</link>
+      <pubDate>Fri, 19 May 2017 16:26:31 -0700</pubDate>
+      
+      <guid>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</guid>
+      <description>This year at work has seen several trial and error attempts at third-party software configuration. Our school makes use of Avast Mac Security 2016. However, from Mavericks to El Capitan, we have also time and again run into roadblocks with Avast, one of which has been pushing updates and navigating the web.
+For reasons unknown to me, if the Web Shield is left to its default configuration, Avast will conflict with both Munki and Firefox.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://romanmgarcia.com/about/</link>
+      <pubDate>Fri, 19 May 2017 15:45:19 -0700</pubDate>
+      
+      <guid>http://romanmgarcia.com/about/</guid>
+      <description>Roman Garcia works as an educational technologist in downtown Portland, Oregon. He graduated from Reed College with a B.A. in German Literature and is an Apple Certified Mac Technician.
+Roman is originally from the Bronx in New York City. He voraciously reads and writes in his spare time.
+This website is hosted by GitHub Pages and was built using Hugo, a static website generator. It makes use of the Cocoa template.</description>
+    </item>
+    
+    <item>
+      <title>colophon</title>
+      <link>http://romanmgarcia.com/colophon/</link>
+      <pubDate>Sat, 22 Aug 2015 06:28:26 -0700</pubDate>
+      
+      <guid>http://romanmgarcia.com/colophon/</guid>
+      <description>This website is a personal homepage.
+The site is built with Hugo—a static site generator made with Go. The website source code is available on GitHub. It uses the cocoa theme. The posts are written in Markdown.
+The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://romanmgarcia.com/about-this-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://romanmgarcia.com/about-this-site/</guid>
+      <description>    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://romanmgarcia.com/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://romanmgarcia.com/blog/</guid>
+      <description>    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://romanmgarcia.com/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://romanmgarcia.com/writing/</guid>
+      <description>    </description>
+    </item>
+    
+  </channel>
+</rss>
