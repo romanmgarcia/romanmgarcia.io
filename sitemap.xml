@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://romanmgarcia.com/posts/on-a-walk/</loc>
+    <lastmod>2017-06-03T16:39:44-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</loc>
     <lastmod>2017-05-19T16:26:31-07:00</lastmod>
   </url>
@@ -30,7 +35,7 @@
   
   <url>
     <loc>http://romanmgarcia.com/blog/</loc>
-    <lastmod>2017-05-19T16:26:31-07:00</lastmod>
+    <lastmod>2017-06-03T16:39:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,7 +52,7 @@
   
   <url>
     <loc>http://romanmgarcia.com/</loc>
-    <lastmod>2017-05-19T16:26:31-07:00</lastmod>
+    <lastmod>2017-06-03T16:39:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   

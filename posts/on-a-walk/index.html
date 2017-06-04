@@ -8,19 +8,21 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="This year at work has seen several trial and error attempts at third-party software configuration. In particular, our school makes use of Avast Mac Security 2016. However, from Mavericks to El Capitan, we have time and again run into roadblocks with Avast, one of which has been pushing updates and navigating the web.
-For reasons unknown to me, if the Web Shield is left to its default configuration, Avast will conflict with both Munki and Firefox.">
+<meta name="description" content="A woman is jogging / a stroller &ensp; &ensp; &ensp; Dangerous! Is she looking or am I &ensp; &ensp; out for her?
+Riding the Transit A woman is loudly snoring A young daughter is disobeying A young mother is disciplining A bus is breaking A long train is whistling A repetitve beat is playing
+An operator is speaking What is she saying A man is tugging &ensp; &ensp; a rope It does not stretch">
 
-<meta property="og:title" content="Configuring the &#39;Web Shield&#39; of Avast Mac Security 2016" />
-<meta property="og:description" content="This year at work has seen several trial and error attempts at third-party software configuration. In particular, our school makes use of Avast Mac Security 2016. However, from Mavericks to El Capitan, we have time and again run into roadblocks with Avast, one of which has been pushing updates and navigating the web.
-For reasons unknown to me, if the Web Shield is left to its default configuration, Avast will conflict with both Munki and Firefox." />
+<meta property="og:title" content="On a Walk" />
+<meta property="og:description" content="A woman is jogging / a stroller &ensp; &ensp; &ensp; Dangerous! Is she looking or am I &ensp; &ensp; out for her?
+Riding the Transit A woman is loudly snoring A young daughter is disobeying A young mother is disciplining A bus is breaking A long train is whistling A repetitve beat is playing
+An operator is speaking What is she saying A man is tugging &ensp; &ensp; a rope It does not stretch" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/" />
+<meta property="og:url" content="http://romanmgarcia.com/posts/on-a-walk/" />
 
 
 
-<meta property="article:published_time" content="2017-05-19T16:26:31-07:00"/>
-<meta property="article:modified_time" content="2017-05-19T16:26:31-07:00"/>
+<meta property="article:published_time" content="2017-06-03T16:39:44-07:00"/>
+<meta property="article:modified_time" content="2017-06-03T16:39:44-07:00"/>
 
 
 
@@ -36,10 +38,10 @@ For reasons unknown to me, if the Web Shield is left to its default configuratio
 <title>
 
 
-     Configuring the &#39;Web Shield&#39; of Avast Mac Security 2016 
+     On a Walk 
 
 </title>
-<link rel="canonical" href="http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/">
+<link rel="canonical" href="http://romanmgarcia.com/posts/on-a-walk/">
 
 
 
@@ -57,9 +59,9 @@ For reasons unknown to me, if the Web Shield is left to its default configuratio
 
 
     
-    <link rel="stylesheet" href="http://romanmgarcia.com/css/reset.css?t=2017-06-03%2017%3a18%3a45.514860886%20-0700%20PDT">
-    <link rel="stylesheet" href="http://romanmgarcia.com/css/pygments.css?t=2017-06-03%2017%3a18%3a45.514860886%20-0700%20PDT">
-    <link rel="stylesheet" href="http://romanmgarcia.com/css/main.css?t=2017-06-03%2017%3a18%3a45.514860886%20-0700%20PDT">
+    <link rel="stylesheet" href="http://romanmgarcia.com/css/reset.css?t=2017-06-03%2017%3a18%3a45.514684398%20-0700%20PDT">
+    <link rel="stylesheet" href="http://romanmgarcia.com/css/pygments.css?t=2017-06-03%2017%3a18%3a45.514684398%20-0700%20PDT">
+    <link rel="stylesheet" href="http://romanmgarcia.com/css/main.css?t=2017-06-03%2017%3a18%3a45.514684398%20-0700%20PDT">
     
 
 
@@ -168,7 +170,7 @@ For reasons unknown to me, if the Web Shield is left to its default configuratio
                 <div class="title-container">
                     <div class="page-heading">
 
-    Configuring the &#39;Web Shield&#39; of Avast Mac Security 2016
+    On a Walk
 
 </div>
 
@@ -176,41 +178,37 @@ For reasons unknown to me, if the Web Shield is left to its default configuratio
                 </div>
                 <div class="meta">
                     
-                    <div class="date" title='Fri May 19 2017 16:26:31 PDT'>May 19, 2017</div>
+                    <div class="date" title='Sat Jun 3 2017 16:39:44 PDT'>Jun 3, 2017</div>
                     
                     
                 </div>
             </div>
             <div class="markdown">
-                <p>This year at work has seen several trial and error attempts at third-party software configuration. In particular, our school makes use of Avast Mac Security 2016. However, from Mavericks to El Capitan, we have time and again run into roadblocks with Avast, one of which has been pushing updates and navigating the web.</p>
+                
 
-<p>For reasons unknown to me, if the Web Shield is left to its default configuration, Avast will conflict with both Munki and Firefox. Managed Software Center times out, and when the Guest account is used to call any secure website, Firefox will toss cryptic trust certificate error messages. The two offending checkboxes (&ldquo;Scan files while downloading&rdquo; and &ldquo;Scan secured connections&rdquo;) are pictured below.</p>
+<p>A woman is jogging / a stroller<br/>
+&ensp; &ensp; &ensp; Dangerous!<br/>
+Is she looking or am I<br/>
+&ensp; &ensp; out for her?</p>
 
-<p><img src="../../images/avast-web-shield-default-config.png"></p>
+<h3 id="riding-the-transit">Riding the Transit</h3>
 
-<p>It took some poking around, but I eventually realized that Avast (as of version 12.7) stores most of its settings in plain text under <code>/Library/Application Support/Avast/config</code>. In its default state, <code>com.avast.proxy.conf</code> will read:</p>
+<p>A woman is loudly snoring<br/>
+A young daughter is disobeying<br/>
+A young mother is disciplining<br/>
+A bus is breaking<br/>
+A long train is whistling<br/>
+A repetitve beat is playing</p>
 
-<pre><code>[web]
-ENABLED=1
-FLAGS=3
-IPV6=1
-SCAN_SENSITIVITY=&quot;+pup&quot;
-SSL=1
-</code></pre>
+<p>An operator is speaking<br/>
+What is she saying<br/>
+A man is tugging<br/>
+&ensp; &ensp; a rope<br/>
+It does not stretch</p>
 
-<p>Instead of disabling the service entirely, I toyed with the Web Shield&rsquo;s settings in the GUI and watched for file changes. Sure enough, by disabling those two checkboxes, the file now read:</p>
-
-<pre><code>[web]
-ENABLED=1
-FLAGS=1
-IPV6=1
-SCAN_SENSITIVITY=&quot;+pup&quot;
-SSL=0
-</code></pre>
-
-<p>Of course, the changes won&rsquo;t take effect immediately. The Avast service will need to be restarted. The GUI won&rsquo;t register the change until the entire suite has been power cycled.</p>
-
-<p>Once we had our target file, we zipped it up using Packages and pushed it out with Munki. All in all, a less painful and more mundane process than we had initially bargained for.</p>
+<p>A woman is mumbling<br/>
+&ensp; to herself?<br/>
+Is she or am I writing?</p>
 
                 <br>
 		<p><a href="http://romanmgarcia.com/blog/">Back to posts</a></p>
@@ -220,9 +218,9 @@ SSL=0
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'rommicgar';
-    var disqus_identifier = 'http:\/\/romanmgarcia.com\/posts\/configuring-the-web-shield-of-avast-mac-security-2016\/';
-    var disqus_title = 'Configuring the \x27Web Shield\x27 of Avast Mac Security 2016';
-    var disqus_url = 'http:\/\/romanmgarcia.com\/posts\/configuring-the-web-shield-of-avast-mac-security-2016\/';
+    var disqus_identifier = 'http:\/\/romanmgarcia.com\/posts\/on-a-walk\/';
+    var disqus_title = 'On a Walk';
+    var disqus_url = 'http:\/\/romanmgarcia.com\/posts\/on-a-walk\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
