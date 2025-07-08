@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Roman Garcia</title>
-    <link>http://romanmgarcia.com/</link>
+    <link>http://roman.nyc/</link>
     <description>Recent content on Roman Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Jun 2017 16:39:44 -0700</lastBuildDate>
     
-	<atom:link href="http://romanmgarcia.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://roman.nyc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>On a Walk</title>
-      <link>http://romanmgarcia.com/posts/on-a-walk/</link>
+      <link>http://roman.nyc/posts/on-a-walk/</link>
       <pubDate>Sat, 03 Jun 2017 16:39:44 -0700</pubDate>
       
-      <guid>http://romanmgarcia.com/posts/on-a-walk/</guid>
+      <guid>http://roman.nyc/posts/on-a-walk/</guid>
       <description>A woman is jogging / a stroller &amp;ensp; &amp;ensp; &amp;ensp; Dangerous! Is she looking or am I &amp;ensp; &amp;ensp; out for her?
 Riding the Transit A woman is loudly snoring A young daughter is disobeying A young mother is disciplining A bus is breaking A long train is whistling A repetitve beat is playing
 An operator is speaking What is she saying A man is tugging &amp;ensp; &amp;ensp; a rope It does not stretch</description>
@@ -24,20 +24,20 @@ An operator is speaking What is she saying A man is tugging &amp;ensp; &amp;ensp
     
     <item>
       <title>Configuring the &#39;Web Shield&#39; of Avast Mac Security 2016</title>
-      <link>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</link>
+      <link>http://roman.nyc/posts/configuring-the-web-shield-of-avast-mac-security-2016/</link>
       <pubDate>Fri, 19 May 2017 16:26:31 -0700</pubDate>
       
-      <guid>http://romanmgarcia.com/posts/configuring-the-web-shield-of-avast-mac-security-2016/</guid>
+      <guid>http://roman.nyc/posts/configuring-the-web-shield-of-avast-mac-security-2016/</guid>
       <description>This year at work has seen several trial and error attempts at third-party software configuration. In particular, our school makes use of Avast Mac Security 2016. However, from Mavericks to El Capitan, we have time and again run into roadblocks with Avast, one of which has been pushing updates and navigating the web.
 For reasons unknown to me, if the Web Shield is left to its default configuration, Avast will conflict with both Munki and Firefox.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://romanmgarcia.com/about/</link>
+      <link>http://roman.nyc/about/</link>
       <pubDate>Fri, 19 May 2017 15:45:19 -0700</pubDate>
       
-      <guid>http://romanmgarcia.com/about/</guid>
+      <guid>http://roman.nyc/about/</guid>
       <description>Roman Garcia works as an educational technologist in downtown Portland, Oregon. He graduated from Reed College with a B.A. in German Literature and is an Apple Certified Mac Technician.
 Roman is originally from the Bronx in New York City. He voraciously reads and writes in his spare time.
 This website is hosted by GitHub Pages and was built using Hugo, a static website generator. It makes use of the Cocoa template.</description>
@@ -45,10 +45,10 @@ This website is hosted by GitHub Pages and was built using Hugo, a static websit
     
     <item>
       <title>colophon</title>
-      <link>http://romanmgarcia.com/colophon/</link>
+      <link>http://roman.nyc/colophon/</link>
       <pubDate>Sat, 22 Aug 2015 06:28:26 -0700</pubDate>
       
-      <guid>http://romanmgarcia.com/colophon/</guid>
+      <guid>http://roman.nyc/colophon/</guid>
       <description>This website is a personal homepage.
 The site is built with Hugo—a static site generator made with Go. The website source code is available on GitHub. It uses the cocoa theme. The posts are written in Markdown.
 The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.</description>
@@ -56,28 +56,28 @@ The primary font face is Open Sans and the monospace font face is Ubuntu Mono. T
     
     <item>
       <title></title>
-      <link>http://romanmgarcia.com/about-this-site/</link>
+      <link>http://roman.nyc/about-this-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://romanmgarcia.com/about-this-site/</guid>
+      <guid>http://roman.nyc/about-this-site/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://romanmgarcia.com/blog/</link>
+      <link>http://roman.nyc/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://romanmgarcia.com/blog/</guid>
+      <guid>http://roman.nyc/blog/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://romanmgarcia.com/writing/</link>
+      <link>http://roman.nyc/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://romanmgarcia.com/writing/</guid>
+      <guid>http://roman.nyc/writing/</guid>
       <description>    </description>
     </item>
     
